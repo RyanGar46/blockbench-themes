@@ -1,0 +1,28 @@
+{
+	"name": "Windows 95",
+	"author": "RyanGar46",
+	"borders": false,
+	"main_font": "MS Sans Serif",
+	"headline_font": "MS Sans Serif",
+	"code_font": "",
+	"css": ":root {\n  --color-windows-background: #008282;\n  --color-windows-accent: #000082;\n  --color-windows-border-top: #ffffff;\n  --color-windows-border-bottom: #717171;\n}\n\n/* Dialog */\n.dialog .dialog_handle {\n  color: var(--color-light);\n  font-weight: bold;\n  background-color: var(--color-windows-accent);\n  border: 4px outset var(--color-windows-border);\n  height: fit-content;\n  border-top: 6px ridge var(--color-windows-border-top);\n  border-left: 6px ridge var(--color-windows-border-top);\n  border-bottom: 6px ridge var(--color-windows-border-bottom);\n  border-right: 6px ridge var(--color-windows-border-bottom);\n  display: flex;\n  align-items: center;\n}\n\n/* Window */\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\nheader {\n  min-height: 60px !important;\n  box-sizing: border-box;\n  display: flex;\n  align-items: center;\n  border-top: 6px ridge var(--color-windows-border-top);\n  border-left: 6px ridge var(--color-windows-border-top);\n  border-bottom: 6px ridge var(--color-windows-border-bottom);\n  border-right: 6px ridge var(--color-windows-border-bottom);\n}\n\n#page_wrapper {\n  flex: 1 1 auto;\n}\n\n#blackout {\n  display: none !important;\n}\n\nheader *, header #menu_bar li {\n  font-weight: bold;\n}\n\nheader #menu_bar {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n}\n\nheader #menu_bar li {\n  color: var(--color-light);\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n}\nheader #windows_window_menu {\n  display: flex !important;\n  align-items: center;\n}\n\nheader #windows_window_menu li {\n  background-color: var(--color-ui);\n  border-top: 6px ridge var(--color-windows-border-top);\n  border-left: 6px ridge var(--color-windows-border-top);\n  border-bottom: 6px ridge var(--color-windows-border-bottom);\n  border-right: 6px ridge var(--color-windows-border-bottom);\n  height: 40px;\n}",
+	"colors": {
+		"ui": "#c3c3c3",
+		"back": "#e0e0e0",
+		"dark": "#008282",
+		"border": "#000000",
+		"selected": "#c3c3c3",
+		"button": "#e0e0e0",
+		"bright_ui": "#c3c3c3",
+		"accent": "#000082",
+		"frame": "#000082",
+		"text": "#000000",
+		"light": "#ffffff",
+		"accent_text": "#000000",
+		"bright_ui_text": "#000000",
+		"subtle_text": "#ffffff",
+		"grid": "#495061",
+		"wireframe": "#576f82",
+		"checkerboard": "#000000"
+	}
+}
