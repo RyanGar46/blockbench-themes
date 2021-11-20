@@ -1,0 +1,28 @@
+{
+	"name": "Twilight",
+	"author": "RyanGar46",
+	"borders": false,
+	"main_font": "Sans Serif",
+	"headline_font": "Sans Serif",
+	"code_font": "",
+	"css": ":root {\n  --size-round-large: 16px;\n  --size-round-small: 8px;\n  --size-blur: 2px;\n}\n\n@keyframes fade-in {\n  from {opacity: 0;}\n  to {opacity: 1;}\n}\n\n#blackout {\n  backdrop-filter: blur(var(--size-blur));\n  opacity: 1;\n  background-color: rgba(0,0,0, 30%);\n  animation: fade-in 0.5s;\n}\n\n/* Dialog */\n.dialog_handle {\n  font-size: 1.5em;\n  height: fit-content;\n  flex: 1 1 auto;\n  display: flex;\n}\n\n/* Tabs */\n#tab_bar {\n  height: fit-content;\n}\n\n#tab_bar .project_tab {\n  min-width: fit-content;\n  min-height: fit-content;\n}",
+	"colors": {
+		"ui": "#2c202d",
+		"back": "#1f1022",
+		"dark": "#3f2044",
+		"border": "#6c5669",
+		"selected": "#cb4265",
+		"button": "#cb3e68",
+		"bright_ui": "#b63763",
+		"accent": "#d70c64",
+		"frame": "#181a1f",
+		"text": "#e4e4e4",
+		"light": "#ffffff",
+		"accent_text": "#000006",
+		"bright_ui_text": "#e4e4e4",
+		"subtle_text": "#848891",
+		"grid": "#495061",
+		"wireframe": "#576f82",
+		"checkerboard": "#3b2648"
+	}
+}
